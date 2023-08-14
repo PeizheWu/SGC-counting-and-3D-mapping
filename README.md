@@ -11,10 +11,11 @@ This step is to crop the region of interest from the eslide, i.e. the cochlea, i
 Step3 
 This step is to align the serial sections of the human temporal bone by rotating and translating the Eslides. The parameter of this operation was then applied to the x,y coordinates of the SGCs (step 2) to generate the final x,y,z coordinates using 3D reconstruction. 
 
-F1-score 
-This step was coded in MATLAB. The F1 - Score for the model and human-level-performance F1 score is coded separately as Neurolucida data files were involved in the human-level-performance F1 score. 
+CalculateF1score.m
+This file was coded in MATLAB. The F1 - Score for the model and human-level-performance F1 score is coded separately as Neurolucida data files were involved in the human-level-performance F1 score. 
 
-
+SGCsMLFigures.m
+This file was coded in MATLAB. This includes the analysis for all the data presented in this paper. 
 
 
 
